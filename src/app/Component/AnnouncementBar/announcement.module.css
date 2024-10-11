@@ -1,0 +1,9 @@
+.announcementWrapper{
+    background-color: black;
+    color:red;
+    font-size: medium;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

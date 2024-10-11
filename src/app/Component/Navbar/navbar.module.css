@@ -1,0 +1,49 @@
+.navbarWrapper {
+  display: flex;
+  height: 188px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brandName {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.57px;
+  letter-spacing: 1px;
+  margin-left: 200px;
+}
+
+.navImageSection {
+  width: 244px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 36px;
+  cursor: pointer;
+}
+
+.navLogo {
+  margin-left: 36px;
+}
+
+.navMenu {
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  width: 636px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navMenuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
