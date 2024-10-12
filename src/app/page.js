@@ -11,8 +11,7 @@ export default function Home() {
       <AnnouncementBar />
       <Navbar />
       <Tagline />
-      <Products />
-      <Footer />
+      <Products /> <Footer />
     </body>
   );
 }

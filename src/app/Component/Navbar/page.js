@@ -49,15 +49,15 @@ function Navbar() {
         </div>
       </div>
       <div className={style.navMenuContainer}>
-      <div className={style.navMenu}>
-        <div>SHOP</div>
-        <div>SKILLS</div>
-        <div>STORIES</div>
-        <div>ABOUT</div>
-        <div>CONTACT US</div>
+        <div className={style.navMenu}>
+          <div>SHOP</div>
+          <div>SKILLS</div>
+          <div>STORIES</div>
+          <div>ABOUT</div>
+          <div>CONTACT US</div>
+        </div>
       </div>
-      </div>
-      <hr style={{color:  "#E5E5E5", marginTop:"32px", height:"1px"}}/>
+      <hr style={{ color: "#E5E5E5", marginTop: "32px", height: "1px" }} />
     </div>
   );
 }

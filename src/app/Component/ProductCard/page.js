@@ -7,7 +7,6 @@ function ProductCard() {
     "/Teddy.svg",
     "/Cap.svg",
     "/Belt.svg",
-
     "/Bag2.svg",
     "/Bag3.svg",
     "/Bag4.svg",

@@ -3,8 +3,8 @@
   margin-top: 25px;
   display: flex;
   justify-content: center;
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .itemCount {
@@ -71,6 +71,66 @@
   text-align: left;
 }
 
+.unSelect {
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #bfc8cd;
+  text-decoration: underline;
+  margin-top: 24px;
+}
+
+.recommendList {
+  position: relative;
+  background-color: rebeccapurple;
+}
+
+.checkItem {
+  margin-top: 24px;
+  color: #252020;
+  text-decoration: none;
+}
+
 .productItem {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .filterWrapper {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  .filter_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .itemCount {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .hide {
+    font-size: 14px;
+  }
+
+  .recommend {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .customizeColumn {
+    display: none;
+  }
+
+  .productItem {
+    width: 100%;
+    margin-top: 20px;
+  }
 }

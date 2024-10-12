@@ -1,7 +1,175 @@
-.footerConteiner{
-    height: 750px;
-    background-color: black;
-    color: white;
-    margin-top: 48px;
-    padding-top: 79px;
+.footerConteiner {
+  color: white;
+  padding-top: 79px;
+  width: 1248px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divOne {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inpDiv {
+  width: 584px;
+}
+
+.mt48 {
+  margin-top: 48px;
+}
+
+.mt56 {
+  margin-top: 56px;
+}
+
+.mt70 {
+  margin-top: 70px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.reserveLine {
+  margin-top: 69px;
+  padding-bottom: 25px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.divTwo {
+  margin-top: 56px;
+  margin-left: 128px;
+  margin-right: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wt {
+  width: 447px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 212px;
+}
+
+.Font700 {
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.Font400 {
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.Font12 {
+  font-size: 12px;
+}
+
+.Font18 {
+  font-size: 18px;
+}
+
+.contactDiv {
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 79px; */
+  margin-left: 128px;
+  margin-right: 35px;
+}
+
+.inputBox {
+  width: 384px;
+  height: 47px;
+  padding: 14px 24px 14px 24px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+  margin-left: 10px;
+  width: 184px;
+  height: 48px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1.14px solid grey;
+  opacity: 0.3px;
+}
+
+@media (max-width: 768px) {
+  .footerConteiner {
+    width: 100%;
+    padding: 40px 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contactDiv {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .inpDiv {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .inputBox {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .divTwo {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .about {
+    gap: 8px;
+    height: auto;
+    text-align: center;
+  }
+
+  .Font700,
+  .Font400,
+  .Font18 {
+    text-align: center;
+  }
+
+  .mt16,
+  .mt24,
+  .mt48,
+  .mt70,
+  .mt56,
+  .reserveLine {
+    margin-top: 24px;
+  }
+
+  .reserveLine {
+    padding-bottom: 20px;
+  }
 }
